@@ -1,0 +1,18 @@
+@font-face {
+    font-family: LufgaThin;
+    src: url(LufgaThin.ttf);
+  }
+  
+  div {
+    font-family: LufgaThin;
+  }
+
+body {
+    background-color: #efefef;
+}
+
+h1 {
+    font-family: LufgaThin, sans-serif;
+    font-size: 2rem;
+    color: #333;
+}
