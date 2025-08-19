@@ -1,17 +1,217 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Coming Soon</title>
-    <link rel="stylesheet" href="assets/styles.css">
-    <link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
-
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tiffany Kleyn - Occupational Therapist</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Questrial&display=swap" rel="stylesheet">
+  <link href="styles.css" rel="stylesheet">
 </head>
 <body>
-    <div class="min-h-screen flex flex-col justify-center items-center">
-        <img src="assets/TKOT-02-cropped.svg" alt="Logo" class="w-3/4 h-40 mb-8 ml-3 mr-3">
-        <p class="text-lg mb-8 px-4 md:px-0">Website under construction.</p>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light hero-section">
+    <div class="container">
+      <a class="navbar-brand text-white" href="#">
+        <img src="images/TKOT_RECT_WH-cropped.svg" alt="About me" class="img-fluid logo-image">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon collapsed"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav ms-auto">
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#about">About</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#services">Services</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#fees">Fees</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#faq">FAQ</a></li>
+        <li class="nav-item me-3"><a class="nav-link text-white" href="#contact">Contact</a></li>
+        </ul>
+      </div>
     </div>
+  </nav>
+
+  <!-- About Section -->
+  <section id="about" class="container my-5">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <h2 class="section-heading mb-5">About me</h2>
+        <p>I’m an occupational therapist with a deep passion for mental health and a heart for helping people rediscover strengths they may not yet recognise in themselves.</p>
+        <p>I graduated with a Bachelor of Science in Occupational Therapy and have continued to develop my skillset through additional training in OT Grow group therapy and Dialectical Behaviour Therapy skills training. These experiences have broadened my understanding of the human experience and strengthened my ability to support individuals through life’s challenges and transitions.</p>
+        <p>My background includes experience across both the public and private sectors, working with a wide range of mental health diagnoses and challenges.</p>
+      </div>
+      <div class="col-md-6">
+        <img src="images/photo1.jpg" alt="About me" class="img-fluid about-image">
+      </div>
+    </div>
+  </section>
+
+  
+  <!-- Get In Touch Section -->
+  <section id="touch" class="touch">
+    <div class="container my-5">
+      <div class="row align-items-center">
+        <div class="col-md-12">
+          <p>Whether you're navigating stress, anxiety, depression, or other mental health challenges, I'm here to support you in building practical skills, strengthening emotional resilience, and improving your day-to-day functioning and overall quality of life.</p>
+          <p>As an occupational therapist, I take a holistic and compassionate approach to mental health - recognising the many layers that shape your ability to cope, connect, and thrive. With a warm, person-centred, and evidence-based style, I work collaboratively with you to create a therapeutic journey that reflects your unique needs, values, and goals.</p>
+          <p>If you're ready to take a step toward feeling more grounded and supported, I’d love to hear from you.</p>
+        </div>
+      </div>
+      <div class="row align-items-center">
+        <div class="col-md-12">
+          <div class="d-flex justify-content-center">
+            <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3"  onclick="document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });">GET IN TOUCH</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services-section text-center">
+    <div class="container">
+      <h2 class="section-heading mb-4">Our Services</h2>
+      <p>Individual and Group Therapy for Adolescents, Adults and Older Adults</p>
+      <div class="row mt-4">
+        <div class="col-md-4 mt-4">
+          <img src="images/1-c.png" alt="Task-Centred Therapy" class="service-icon">
+          <h5>Task-Centred Therapy</h5>
+          <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3">Learn more</button>
+        </div>
+        <div class="col-md-4 mt-4">
+          <img src="images/2-c.png" alt="Socioemotional Groups" class="service-icon">
+          <h5>Socioemotional Groups</h5>
+          <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3">Learn more</button>
+        </div>
+        <div class="col-md-4 mt-4">
+          <img src="images/3-c.png" alt="Assertiveness & Boundaries" class="service-icon">
+          <h5>Assertiveness & Boundaries</h5>
+          <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3">Learn more</button>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-md-4 mt-4">
+          <img src="images/4-c.png" alt="Skills-Based Therapy" class="service-icon">
+          <h5>Skills-Based Therapy</h5>
+          <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3">Learn more</button>
+        </div>
+        <div class="col-md-4 mt-4">
+          <img src="images/5-c.png" alt="Cognitive Rehabilitation" class="service-icon">
+          <h5>Cognitive Rehabilitation</h5>
+          <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3">Learn more</button>
+        </div>
+        <div class="col-md-4 mt-4">
+          <img src="images/6-c.png" alt="Corporate Wellness" class="service-icon">
+          <h5>Corporate Wellness</h5>
+          <button class="btn btn-outline-dark btn-sm mt-2 p-2 px-3">Learn more</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- Fees Section -->
+  <section id="fees" class="fees">
+    <div class="container my-5">
+      <div class="fees-card">
+        <h5 class="fw-bold">Fees</h5>
+        <p>
+          The practice operates as a cash-based practice and is not currently contracted with medical aids. 
+          Payment is required after each appointment, and clients will be provided with an invoice containing 
+          the necessary information to submit claims to their medical aid independently.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq" class="faq">
+    <div class="container my-5 ">
+      <h2 class="section-heading mb-4">Frequently Asked Questions</h2>
+      <div class="mb-4">
+        <h5>Do I need a referral to make an appointment?</h5>
+        <p>No referral is needed. You’re welcome to contact me directly to book an appointment.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>How do I book an appointment?</h5>
+        <p>You’re welcome to book an appointment by completing the contact form on this website, or by reaching out to me directly via email or WhatsApp. I’ll get back to you as soon as possible to arrange a time that suits you.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>What can I expect from my first session?</h5>
+        <p>Your first session is an important starting point and is usually a bit longer than regular sessions. During this time, I’ll ask a range of questions to get to know you, understand your current challenges, and explore what’s most important to you. The aim is to gain a clear picture of your unique needs, strengths, and goals so that we can tailor therapy to support you effectively. If appropriate, I may also use specific assessments to help us better understand certain areas of functioning and guide the direction of therapy.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>Do I need to prepare anything for my sessions?</h5>
+        <p>For your first session, the only preparation needed is to take some time to think about what you'd like to achieve in therapy, any specific concerns or challenges you want to explore, and to have any relevant medical or personal history information available if you feel it's important to share. For follow-up sessions, there’s no need to prepare anything in advance — I’ll guide you as we go, based on your needs and our therapeutic goals.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>How long do sessions last?</h5>
+        <p>Follow-up sessions typically last around one hour. However, the exact length may vary depending on how the session progresses - it may be slightly shorter or a bit longer, depending on your needs on the day.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>What age groups do you work with?</h5>
+        <p>I work with adolescents, adults, and older adults who are navigating a range of mental health challenges, life transitions, or emotional difficulties.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>Do you offer online sessions?</h5>
+        <p>Yes, I offer virtual sessions for individuals who prefer or require remote support. While I do suggest that the first session be in-person, this is not compulsory. I’m happy to adapt to your needs and work in a way that feels most accessible to you.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>How many sessions will I need?</h5>
+        <p>The number of sessions differs for each individual. Some clients come for short-term support, while others benefit from longer-term therapy. We’ll discuss your needs together and review progress along the way.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>Is everything I share kept confidential?</h5>
+        <p>Yes, confidentiality is a fundamental part of therapy. What you share in sessions is private and protected, with a few legal exceptions (such as risk of harm to yourself or others). I will always explain this clearly during our first session.</p>
+      </div>
+
+      <div class="mb-4">
+        <h5>What is the difference between occupational therapy and counselling or psychology?</h5>
+        <p>While there can be overlap in how we support individuals, OT offers a unique focus on the practical impact of emotional, cognitive, social, and environmental challenges on daily functioning. We explore how these factors influence your routines, roles, coping strategies, and ability to engage in meaningful activities. Our therapeutic approaches, skills, and areas of focus may differ, but often complement one another. I value the expertise that counsellors, psychologists, and other professionals bring, and often work collaboratively as part of a supportive team. If a referral is needed, I’m always happy to connect and work alongside other healthcare providers to ensure you receive the most comprehensive and holistic support.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <h5>Get in Touch</h5>
+          <p><i class="bi bi-geo-alt-fill"></i> 13 17th Ave<br> Voelklip<br> Hermanus</p>
+          <p><i class="bi bi-telephone"></i> 071 627 4167<br><i class="bi bi-envelope"></i>
+ <a href="mailto:tiffany@tkot.co.za">tiffany@tkot.co.za</a><br><i class="bi bi-instagram"></i> tiffanykleynot</p>
+        </div>
+        <!-- modify this form HTML and place wherever you want your form -->
+        <div class="col-md-8">
+          <form action="https://formspree.io/f/mdkdrapj" method="POST">
+            <div class="row mb-3">
+              <div class="col">
+                <input type="text" class="form-control" name="first_name" placeholder="First Name">
+              </div>
+              <div class="col">
+                <input type="text" class="form-control" name="last_name" placeholder="Last Name">
+              </div>
+            </div>
+            <div class="mb-3">
+              <input type="email" class="form-control" name="email" placeholder="Email *">
+            </div>
+            <div class="mb-3">
+              <textarea class="form-control" rows="4" name="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-dark w-100">Send</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
