@@ -62,6 +62,9 @@ h1, h2, h3, h4, h5 {
     background-color: #e2e1ce;
     padding: 3rem 1rem;
 }
+.fees p {
+    text-align: justify;
+}
 .fees-card {
       background-color: #3c3b2f; /* Dark olive-like background */
       color: #fff;
@@ -113,11 +116,6 @@ h1, h2, h3, h4, h5 {
     color: #fff;
     text-decoration: none;
 }
-
-
-
-
-
 
 
 
